@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image 
 
-st.title("Mi primera chamba!!")
+st.title("Intro interfaces Marcela DM")
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
 st.write("Facilmente puedo realizar backend y frontend.")
@@ -10,8 +10,8 @@ image = Image.open('Bang chan.jpeg')
 st.image(image, caption='Interfaces multimodales')
 
 
-texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('Este es mi texto', texto)
+texto = st.text_input('Escribe quien es la persona más bonita del mundo', 'Si, eres tu :)')
+st.write('Tu nombre', texto)
 
 st.subheader("Ahora usemos 2 Columnas")
 
@@ -35,6 +35,6 @@ with col2:
 
 st.subheader("Uso de Botones")
 if st.button('Presiona el botón'):
-    st.write('Gracias por presionar')
+    st.write('Esta página se autodestruira en 3, 2 ,1 .....')
 else:
     st.write('No has presionado aún')
