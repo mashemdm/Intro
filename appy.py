@@ -10,8 +10,8 @@ image = Image.open('Bang chan.jpeg')
 st.image(image, caption='Interfaces multimodales')
 
 
-texto = st.text_input('Escribe quien es la persona más bonita del mundo', 'Si, eres tu :)')
-st.write('Tu nombre', texto)
+texto = st.text_input('Escribe quien es la persona más bonita del mundo', 'Tu nombre')
+st.write('Si, eres tu :)', texto)
 
 st.subheader("Ahora usemos 2 Columnas")
 
