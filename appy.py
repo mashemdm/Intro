@@ -11,7 +11,7 @@ st.image(image, caption='Interfaces multimodales')
 
 
 texto = st.text_input('Escribe quien es la persona más bonita del mundo', 'Tu nombre')
-st.write('Si, eres tu :)', texto)
+st.write(texto, "Si, eres tu :)")
 
 st.subheader("Ahora usemos 2 Columnas")
 
